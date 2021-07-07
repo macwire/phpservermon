@@ -10,7 +10,7 @@ group :test do
 end
 
 group :development do
-  gem "travis"
+  gem "travis", ">= 1.6.7"
   gem "travis-lint"
   gem "beaker"
   gem "beaker-rspec"
